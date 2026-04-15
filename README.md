@@ -46,9 +46,9 @@ arr.ndim     # Number of dimensions
 arr.dtype    # Data type of elements
 
 # Adding Dimensions with np.newaxis
-a  = np.arange(6)         # Shape: (6,)
-a2 = a[np.newaxis, :]     # Shape: (1, 6)
-a3 = a2[np.newaxis, :]    # Shape: (1, 1, 6)
+a  = np.arange(6)          # Shape: (6,)
+a2 = a[np.newaxis, :]      # Shape: (1, 6)
+a3 = a2[np.newaxis, :]     # Shape: (1, 1, 6)
 
 # Vectorized Operations (element-wise, no loops needed)
 a + b      # Addition
@@ -56,7 +56,7 @@ a - b      # Subtraction
 a * b      # Multiplication
 a / b      # Division
 a ** 2     # Square each element
-` ` `
+```
 
 ---
 
@@ -70,6 +70,3 @@ a ** 2     # Square each element
 ---
 
 *Part of the **Python Ka Chilla** journey with @Codanics.*
-```
-
-> **Note:** Remove the spaces in the closing ` ` ` of the code block — I added them so it wouldn't break the outer markdown here. On GitHub it should be three backticks with no spaces: ` ``` `
